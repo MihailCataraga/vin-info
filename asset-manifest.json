@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vin-info/static/css/main.6792d9a1.css",
+    "main.js": "/vin-info/static/js/main.99af5158.js",
+    "index.html": "/vin-info/index.html",
+    "main.6792d9a1.css.map": "/vin-info/static/css/main.6792d9a1.css.map",
+    "main.99af5158.js.map": "/vin-info/static/js/main.99af5158.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6792d9a1.css",
+    "static/js/main.99af5158.js"
+  ]
+}
