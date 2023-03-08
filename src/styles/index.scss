@@ -1,0 +1,30 @@
+:root{
+    --background: rgb(26, 26, 26);
+    --sec-background: rgb(46, 46, 46);
+    --color: red;
+    --color-white: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.a-center{
+    align-items: center;
+}
+
+@import url("./__partition/navbar.scss");
+@import url("./__partition/homeContent.scss");
+@import url("./__partition/catalogueContent.scss");
+@import url("./__partition/carContent.scss");
+@import url("./__partition/footer.scss");

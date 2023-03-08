@@ -1,0 +1,121 @@
+.homeContent{
+    flex-direction: column;
+    background-color: var(--sec-background);
+    .top{
+        padding: 50px 150px;
+        h1{
+            text-align: center;
+            color: var(--color-white);
+            font-weight: 600;
+            font-size: 36px;
+        }
+        .search{
+            margin-top: 60px;
+            justify-content: center;
+            gap: 100px;
+            flex-wrap: wrap;
+            .left{
+                flex-direction: column;
+                .input{
+                    input{
+                        color: var(--color);
+                        background-color: var(--color-white);
+                        border: 2px solid var(--color);
+                        outline: none;
+                        padding: 5px 15px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        border-radius: 50px 0 0 50px;
+                        &::placeholder{
+                            color: var(--background);
+                        }
+                    }
+                    button{
+                        color: var(--color-white);
+                        background-color: var(--background);
+                        border: 2px solid var(--color);
+                        outline: none;
+                        padding: 5px 15px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        border-radius: 0 50px 50px 0;
+                        &::placeholder{
+                            color: var(--background);
+                        }
+                        &:hover{
+                            color: var(--color);
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .notFound{
+                    background-color: var(--background);
+                    // width: 250px;
+                    padding: 10px; 
+                    margin: 30px 60px 0 60px;
+                    border: 2px solid var(--color);
+                    border-radius: 50px;
+                    color: var(--color-white);
+                    .icon{
+                        font-size: 28px;
+                        margin-right: 10px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .right{
+                .link{
+                    color: var(--color-white);
+                    text-decoration: none;
+                    .boxCar{
+                        flex-direction: column;
+                        img{
+                            width: 550px;
+                            border-radius: 30px;
+                        }
+                        h3{
+                            font-size: 20px;
+                            margin: 20px 0 10px 0;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+                img{
+                    width: 600px;
+                }
+            }
+    
+        }
+    }
+    .bottom{
+        h2{
+            font-size: 30px;
+            text-align: center;
+            color: var(--color-white);
+            margin: 60px 0;
+        }
+        .benefits{
+            color: var(--color-white);
+            padding-bottom: 50px;
+            .benefit{
+                padding: 0 50px;
+                &:nth-child(2){
+                    border-left: 1px solid red;
+                    border-right: 1px solid red;
+                }
+                .icon{
+                    font-size: 28px;
+                    margin-right: 10px;
+                }
+                p{
+                    font-size: 22px;
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.navbar{
+    justify-content: space-between;
+    background-color: var(--background);
+    .logo{
+        font-size: 44px;
+        margin: 15px 80px;
+        .logoName{
+            text-decoration: none;
+            color: var(--color-white);
+            font-weight: 700;
+            span{
+                color: var(--color);
+            }
+        }
+    }
+    .pages{
+        margin: 0 80px;
+        .link{
+            margin: 0 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: var(--color-white);
+            font-weight: 500;
+            border: 2px solid var(--color);
+            padding: 5px 15px;
+            border-radius: 50px;
+            &:hover{
+                color: var(--color);
+                border: 2px solid var(--color-white);
+            }
+        }
+    }
+}
