@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vin-info/static/css/main.6792d9a1.css",
-    "main.js": "/vin-info/static/js/main.903df4a7.js",
+    "main.js": "/vin-info/static/js/main.4701fda7.js",
     "index.html": "/vin-info/index.html",
     "main.6792d9a1.css.map": "/vin-info/static/css/main.6792d9a1.css.map",
-    "main.903df4a7.js.map": "/vin-info/static/js/main.903df4a7.js.map"
+    "main.4701fda7.js.map": "/vin-info/static/js/main.4701fda7.js.map"
   },
   "entrypoints": [
     "static/css/main.6792d9a1.css",
-    "static/js/main.903df4a7.js"
+    "static/js/main.4701fda7.js"
   ]
 }
