@@ -69,7 +69,7 @@ export default function HomeContent() {
                   <p>VIN: {cars[index].vin}</p>
                 </div>
               </Link> :
-              <img src='images/car.png' alt='Profile img' />
+              <img src='assets/images/car.png' alt='Profile img' />
             }
           </div>
         </div>
