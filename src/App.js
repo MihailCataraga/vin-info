@@ -7,13 +7,12 @@ import {
 import Car from "./pages/Car";
 import Catalogue from "./pages/Catalogue";
 import Home from "./pages/Home";
-import createHashHistory from 'history/createHashHistory';
+
 
 function App() {
   const vinCode = useSelector(state => state.vin.vin)
-  const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
   return (
-    <Router basename={process.env.PUBLIC_URL} history={hashHistory}>
+    <Router basename={process.env.PUBLIC_URL} history={process.env.PUBLIC_URL}>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
